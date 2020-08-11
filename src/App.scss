@@ -53,3 +53,9 @@ h1 {
 #break-length, #session-length {
   font-size: 2rem;
 }
+
+@media screen and (max-width: 700px) {
+  .App {
+    border: 0px;
+  }
+}
