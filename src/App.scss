@@ -1,0 +1,53 @@
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.App {
+  text-align: center;
+  border: 2px solid black;
+    border-radius: 15px;
+}
+
+#labels {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 1rem;
+  
+  & > * {
+    border: 1px solid;
+    border-radius: 15px;
+    margin: 1rem;
+    padding: 1rem;
+  }
+}
+
+#timer {
+  border: 1px solid;
+  border-radius: 15px;
+  background-color: black;
+  width: 40%;
+  height: 100px;
+  color: white;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  #time-left {
+    font-size: 1.5rem;
+  }
+}
+
+#controls {
+  font-size: 3rem;
+  margin: 1rem;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+.fas {
+  font-size: 3rem;
+}
+
+#break-length, #session-length {
+  font-size: 2rem;
+}
