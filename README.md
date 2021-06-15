@@ -1,3 +1,5 @@
+**`Project made for freeCodeCamp learning path`**
+
 # Pomodoro Clock
 
 Pomodoro clock written using [react](https://reactjs.org)
